@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    margin:0px
+}
+body{
+    background-color: rgb(247, 253, 243);
+
+    margin: auto;
+}
+
+#root{
+    display:flex;
+    justify-content: center;
+}
+
+.page-container{
+    margin-top: 50px;
+    width:50%;
+    box-shadow:1px 1px 5px #000000;
+    border-radius: 10px;
+    background-color: #FFF;;
+}
+
+.top-colour{
+    height:200px;
+    background-image:url("mockups/349864-4k-wallpaper edited.png");
+    background-size: 100% 250px;
+    background-repeat: no-repeat;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: #FFF;
+    font-weight: 400;
+    font-family: Dancing Script;
+
+}
+.top-colour p{
+    font-size: 25px;
+    font-family:'Lucida Sans';
+    padding-bottom:80px
+}
+
+.title-checkbox-container{
+    background-color: #FCFCFC;
+    padding-left:30px;
+    padding-right:30px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+    padding-top: 50px;
+    font-family:'Lucida Sans'
+}
+
+.invitees-title{
+    font-size:30px;
+    font-weight: bold;
+    color: rgb(68, 64, 64);
+}
+
+#submit-btn{
+    height:50px;
+    width:80px;
+    background-color:#79CAC3 ;
+    color:#FFF;
+    border:none;
+    font-size:17px;
+    font-weight: 600;
+    border-radius:5px;
+}
+
+#submit-btn:active{
+    border:2px solid rgb(105, 134, 134)
+}
+
+#name-inpt{
+    height:50px;
+    width:350px;
+    border:none;
+    outline: none;
+    font-size: 20px;
+}
+.search-container{
+    width:max-content;
+    padding:5px;
+    border-radius:5px;
+    background-color: #FFF;
+    position:relative;
+    bottom: 120px;
+    left:250px;
+    box-shadow:1px 1px 5px #000000;
+
+}
+
+.invitees-container{
+    /* border:2px solid red; */
+    background-color: #FFF;
+    display:grid;
+    grid-template-columns: repeat( auto-fit, minmax(150px, 360px) );
+    grid-gap: 96px;
+
+
+}
+.card-container{
+    height:120px;
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+    font-size: 20px;
+    padding:10px;
+    box-shadow:1px 1px 5px #000000;
+    background-color: #FCFCFC;
+}
+
+.change-buttons{
+    color:#FFF;
+    margin:5px;
+    background-color:#57B8CB;
+    border:none;
+    border-radius:5px;
+    height: 25px;
+    margin-top:10px;
+
+}
+
+.change-buttons:active{
+    border:1px solid black
+}
+
+.hide{
+
+    display: none;
+}
+
+
+.show{
+
+    display: flex;
+}
